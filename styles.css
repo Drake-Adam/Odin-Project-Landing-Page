@@ -1,8 +1,165 @@
 body {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .Header {
     display: flex;
     justify-content: center;
+    background-color: #1f2937;
+    height: 100px;
+    padding: 60px;
+    box-sizing: border-box;
+    align-items: center;
+    column-gap: 25px;
+
 }
+
+.logo {
+    color: white;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.Content1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    background-color: #1f2937;
+    height: 450px;
+    color: #f9faf8;
+    row-gap: 10px;
+}
+
+.content1-left {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 400px;
+    flex-wrap: wrap;
+}
+
+.button {
+    width: 130px;
+    height: 30px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.placeholder {
+    background-color: #727272;
+    width: 600px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(36, 36, 36);
+}
+
+.Content2 {
+    font-size: 48px;
+    text-align: center;
+    margin: 20px;
+}
+
+.Content3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    gap: 20px;
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: 250px;
+    text-align: center;
+    row-gap: 20px;
+}
+
+.box1 {
+    box-sizing: border-box; 
+    border-radius: 25px;
+    border: 5px solid #3882f6;
+    width:200px;
+    height: 200px;
+}
+
+.Content4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding:210px;
+}
+
+.Quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 1;
+}
+
+.Author {
+    font-size: 18px;
+    font-weight: bold;
+    align-self: flex-end;
+
+}
+
+.Content5 {
+    margin: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    padding: 55px 88px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.Content5-button {
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 20px;
+}
+
+
+.Content5-1-1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding:50px;
+    background-color: #1f2937;
+    font-size: 16px;
+
+}
+
+
+
